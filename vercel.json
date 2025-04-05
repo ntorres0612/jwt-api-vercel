@@ -18,6 +18,10 @@
         {
             "src": "/hash-password",
             "dest": "/api/hash-password.js"
+        },
+        {
+            "src": "/verify-password",
+            "dest": "/api/verify-password.js"
         }
     ]
 }
