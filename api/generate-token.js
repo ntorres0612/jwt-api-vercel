@@ -6,7 +6,8 @@ export default async function handler(req, res) {
     }
 
     const payload = req.body;
-    const SECRET = "nTorres.12";
+    const SECRET = process.env.JWT_SECRET;
+
     try {
         const token = jwt.sign(payload, SECRET, { expiresIn: "1h" });
         return res.status(200).json({ token });
