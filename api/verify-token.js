@@ -5,7 +5,7 @@ export default function handler(req, res) {
         return res.status(405).json({ error: "Método no permitido" });
     }
 
-    const authHeader = req.headers["Authorization"];
+    const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
 
     if (!token) {
