@@ -1,0 +1,6 @@
+{
+    "name": "jwt-api",
+    "dependencies": {
+        "jsonwebtoken": "^9.0.0"
+    }
+}
