@@ -25,7 +25,7 @@
         },
         {
             "src": "/login",
-            "dest": "/api/login.js"
+            "dest": "/api/proxy/login.js"
         }
     ]
 }
