@@ -22,6 +22,10 @@
         {
             "src": "/verify-password",
             "dest": "/api/verify-password.js"
+        },
+        {
+            "src": "/login",
+            "dest": "/api/login.js"
         }
     ]
 }
