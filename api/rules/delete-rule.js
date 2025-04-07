@@ -7,7 +7,8 @@ module.exports = async (req, res) => {
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
     const id = req.query.id;
-
+    console.log("reqquery", req.query)
+    console.log("params", req.params)
 
     if (req.method === "OPTIONS") {
         return res.status(200).end();
