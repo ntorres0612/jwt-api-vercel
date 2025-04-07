@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
             {
                 headers: {
                     "Content-Type": "application/json",
-                    "X-Workflow-Api-Key": "retool_wk_4085954ff92f4e658509118a8169a415"
+                    "X-Workflow-Api-Key": "retool_wk_f160a39fcedf4737b629ca22eca64ef5"
                 }
             }
         );
