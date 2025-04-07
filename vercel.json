@@ -42,6 +42,22 @@
         {
             "src": "/update-rule",
             "dest": "/api/rules/update-rule.js"
+        },
+        {
+            "src": "/applications",
+            "dest": "/api/applications/applications.js"
+        },
+        {
+            "src": "/delete-application",
+            "dest": "/api/applications/delete-application.js"
+        },
+        {
+            "src": "/create-application",
+            "dest": "/api/applications/create-application.js"
+        },
+        {
+            "src": "/update-application",
+            "dest": "/api/application/update-application.js"
         }
     ]
 }

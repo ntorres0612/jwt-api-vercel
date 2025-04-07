@@ -6,27 +6,23 @@ module.exports = async (req, res) => {
     res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
     res.setHeader("Access-Control-Allow-Headers", "Content-Type");
 
-
-    const data = req.body;
-
     if (req.method === "OPTIONS") {
         return res.status(200).end();
     }
 
-    if (req.method !== "PUT" && req.method !== "OPTIONS") {
+    if (req.method !== "GET" && req.method !== "OPTIONS") {
         return res.status(405).json({ error: "Método no permitido" });
     }
-
 
     try {
 
         const response = await axios.post(
-            "https://api.retool.com/v1/workflows/afd6e589-9ef7-49b3-9e51-01a517e7ee3c/startTrigger",
-            data,
+            "https://api.retool.com/v1/workflows/40782a87-2ec0-48ac-9ad0-f6cf0da4d63b/startTrigger",
+            {},
             {
                 headers: {
                     "Content-Type": "application/json",
-                    "X-Workflow-Api-Key": "retool_wk_e2b3191523ec44458a201ae8d946ef5f"
+                    "X-Workflow-Api-Key": "retool_wk_0b3a22445e9c40aaa6a52e8858e670b8"
                 }
             }
         );
