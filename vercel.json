@@ -34,6 +34,10 @@
         {
             "src": "/delete-rule",
             "dest": "/api/rules/delete-rule.js"
+        },
+        {
+            "src": "/create-rule",
+            "dest": "/api/rules/create-rule.js"
         }
     ]
 }
