@@ -9,27 +9,31 @@
     "routes": [
         {
             "src": "/generate-token",
-            "dest": "/api/generate-token.js"
+            "dest": "/api/auth/generate-token.js"
         },
         {
             "src": "/verify-token",
-            "dest": "/api/verify-token.js"
+            "dest": "/api/auth/verify-token.js"
         },
         {
             "src": "/hash-password",
-            "dest": "/api/hash-password.js"
+            "dest": "/api/auth/hash-password.js"
         },
         {
             "src": "/verify-password",
-            "dest": "/api/verify-password.js"
+            "dest": "/api/auth/verify-password.js"
         },
         {
             "src": "/login",
-            "dest": "/api/login.js"
+            "dest": "/api/auth/login.js"
         },
         {
             "src": "/rules",
-            "dest": "/api/rules.js"
+            "dest": "/api/rules/rules.js"
+        },
+        {
+            "src": "/delete-rule",
+            "dest": "/api/rules/delete-rule.js"
         }
     ]
 }
