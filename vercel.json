@@ -38,6 +38,10 @@
         {
             "src": "/create-rule",
             "dest": "/api/rules/create-rule.js"
+        },
+        {
+            "src": "/update-rule",
+            "dest": "/api/rules/update-rule.js"
         }
     ]
 }
