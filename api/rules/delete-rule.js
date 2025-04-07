@@ -8,7 +8,6 @@ module.exports = async (req, res) => {
 
     const id = req.query.id;
     console.log("reqquery", req.query)
-    console.log("params", req.params)
 
     if (req.method === "OPTIONS") {
         return res.status(200).end();
