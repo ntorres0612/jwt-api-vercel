@@ -15,11 +15,10 @@ module.exports = async (req, res) => {
     }
 
     try {
-        const { username, password } = req.body;
 
         const response = await axios.post(
             "https://api.retool.com/v1/workflows/b6149907-b763-4e3a-92ad-fbd68756f911/startTrigger",
-            { username, password },
+            {},
             {
                 headers: {
                     "Content-Type": "application/json",
