@@ -17,12 +17,12 @@ module.exports = async (req, res) => {
     try {
 
         const response = await axios.post(
-            "https://api.retool.com/v1/workflows/b6149907-b763-4e3a-92ad-fbd68756f911/startTrigger",
+            "https://api.retool.com/v1/workflows/b03fdb65-dfa4-4a6d-91b3-45255e8f9cb6/startTrigger",
             {},
             {
                 headers: {
                     "Content-Type": "application/json",
-                    "X-Workflow-Api-Key": "retool_wk_651f33fe9d794e0f8f5b629f00cf162d"
+                    "X-Workflow-Api-Key": "retool_wk_8e56884342a14864b66891a99f0a44ac"
                 }
             }
         );
